@@ -15,7 +15,7 @@ readme = readfile("README.rst")[5:]  # skip title and badges
 version = readfile("VERSION")[0].strip()
 
 setup(
-    name='pathlib2',
+    name='pathlib',
     version=version,
     packages=find_packages(),
     license='MIT',
